@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDG1011 Oblig 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h3 id="date"></h3>
+        <p id="path"></p>
+        <p id="modified"></p>
+    </header>
+    <main>
+        <h1>Dog Presentations</h1>
+        <div class="blueLine"></div>
+        <section class="dogsInfo">
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/corgi.jpg" alt="Corgi">
+                    <h2 id="name1"></h2>
+                    <h4 id="age1"></h4>
+                    <ul>
+                        <li id="breed1"></li>
+                        <li id="gender1"></li>
+                        <li id="colors1"></li>
+                        <li id="activityLvl1"></li>
+                        <li id="adoption1"></li>
+                        <li id="eyeColor1"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="assets/shiba.jpg" alt="Shiba">
+                    <h2 id="name2"></h2>
+                    <h4 id="age2"></h4>
+                    <ul>
+                        <li id="breed2"></li>
+                        <li id="gender2"></li>
+                        <li id="colors2"></li>
+                        <li id="activityLvl2"></li>
+                        <li id="adoption2"></li>
+                        <li id="eyeColor2"></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="assets/dalmatian.jpg" alt="Dalmatian">
+                    <h2 id="name3"></h2>
+                    <h4 id="age3"></h4>
+                    <ul>
+                        <li id="breed3"></li>
+                        <li id="gender3"></li>
+                        <li id="colors3"></li>
+                        <li id="activityLvl3"></li>
+                        <li id="adoption3"></li>
+                        <li id="eyeColor3"></li>
+                    </ul>
+                </div>
+            </div>
+            <button id="updateBtn">Update list</button>
+        </section>
+        <section class="dogsAdoption">
+            <h3>Who do you want to adopt?</h3>
+            <div class="dogsImg">
+                <img class="imgBtn" id="corgiBtn" src="assets/corgi.jpg" alt="Corgi">
+                <img class="imgBtn" id="shibaBtn" src="assets/shiba.jpg" alt="Shiba">
+                <img class="imgBtn" id="dalmatianBtn" src="assets/dalmatian.jpg" alt="Dalmatian">
+            </div>
+            <p id="adoptionOutput"></p>
+        </section>
+        <section class="dogsShuffle">
+            <h3>Other dogs available:</h3>
+            <p id="shuffleOutput">. . .</p>
+        <button id="shuffleBtn">Shuffle</button>
+        </section>
+    </main>
+    <footer>
+        <p>This website has been developed in association with the subject IDG1011 Front-End, within BWU - NTNU Gjøvik</p>
+        <h3>Lisa Mari Myrene</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
